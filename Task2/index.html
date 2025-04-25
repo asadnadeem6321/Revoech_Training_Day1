@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="user_input">
+        <form method="post">
+            <label for="name"> Name: </label>
+            <input type="text" id="name"  name="name" required> <br>
+            <label for="email"> Email: </label>
+            <input type="email" id="email"  name="email" required><br>
+            <label for="age"> Age: </label>
+            <input type="number" id="age"  name="age" required><br>
+            <label> Which Option best describes you? </label>
+            <select id="option" name="option" required>
+                <option value="Student">Student</option>
+                <option value="Employeed">Employeed</option>
+                <option value="Other">Other</option>
+            </select><br>
+            <label>Would you recommend geeksforgeeks to a friend? </label>
+            <input type="radio" value="Yes" required> Yes <br>
+            <input type="radio" value="No"> No <br>
+            <input type="radio" value="May Be"> May Be <br>
+            <br>
+            <label>
+                Langauges and Frameworks Known:  (Check all that apply) <br>
+                <input type="radio" name="option" value="1">
+                <span>C </span> <br>
+                <input type="radio" name="option" value="2">
+                <span>C++ </span> <br>
+                <input type="radio" name="option" value="3">
+                <span>C# </span> <br>
+                <input type="radio" name="option" value="4">
+                <span>Java</span> <br>
+                <input type="radio" name="option" value="5">
+                <span>Python</span> <br>
+                <input type="radio" name="option" value="6">
+                <span>JavaScript </span> <br>
+                <input type="radio" name="option" value="7">
+                <span>React</span> <br>
+                <input type="radio" name="option" value="8">
+                <span>Angular</span> <br>
+                <input type="radio" name="option" value="9">
+                <span>Django</span> <br>
+                <input type="radio" name="option" value="10">
+                <span>Spring </span> <br>
+            </label> <br>
+            <h4>Any Comments or Suggestions: </h4>
+            <textarea name="message" rows="5" cols="30" placeholder="Enter your comment here!"></textarea> <br>
+            <button type="submit">Submit</button>          
+        </form>
+
+    </div>
+</body>
+</html>

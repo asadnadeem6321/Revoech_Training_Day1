@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+h1{
+    background-color: blue;
+    color: white;
+}
+#container1{
+  align-items: center;
+    background-color: white;
+    padding: 40px;
+    width: 90%; 
+    right: 20%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+}
+#container2{
+  align-items: baseline;
+    background-color: white;
+    padding: 40px;
+    width: 90%; 
+    right: 20%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+}
+footer {
+  background: blue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;   
+}
+
+@media (max-width: 600px) {
+  footer {
+    padding: 20px;
+    font-size: 50px;
+  }
+}
+
+
+
+  
